@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/white-textured-concrete_125540-1826.jpg?w=996&t=st=1709205417~exp=1709206017~hmac=324a478136c82162ab728dbad94351148e1021b28256c48874ea9fd43f4a70fc);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#part-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#nav h2 {
+    font-size: 17px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 4px 5px;
+    font-weight: 600;
+}
+
+#nav i {
+    font-size: 17px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 4px 7px;
+    font-weight: 600;
+}
+
+#nav h1 {
+    font-size: 33px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+#nav button {
+    padding: 5px 10px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn {
+
+    color: #151414;
+
+}
+
+#main>h1 {
+    font-size: 130px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#quote {
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: anta;
+}
+
+.ri-arrow-down-line {
+    font-size: 30px;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#social {
+    position: absolute;
+    right: 3%;
+    bottom: 6%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+#social a {
+    text-decoration: none;
+    color: black;
+}
+
+.ri-instagram-fill:hover {
+    color: orangered;
+}
+
+.ri-facebook-circle-fill:hover {
+    color: blue;
+}
+
+.ri-twitter-fill:hover {
+    color: blue;
+}
